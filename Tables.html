@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tables.css">
+    <title>Table</title>
+</head>
+<body>
+    <table class="artist">
+        <tr>
+            <th>Artist</th>
+            <th>Movies</th>
+        </tr>
+        <tr>
+            <td><img src="Nolan.jpg" alt="Nolan"></td>
+            <td rowspan="2">
+                <table class="inner-table">
+                    <tr>
+                        <th></th>
+                        <th>Title</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td><img src="Darkknight.jpg" alt="Dark knight"></td>
+                        <td>Dark Knight</td>
+                        <td>2008</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Inception.jpg" alt="Inception"></td>
+                        <td>Inception</td>
+                        <td>2010</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Interstellar.jpg" alt="Interstellar"></td>
+                        <td>Interstellar</td>
+                        <td>2014</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Christopher Nolan</td>
+        </tr>
+    </table>
+    <table class="books">
+        <tr>
+            <th colspan="3">Books I like</th>
+        </tr>
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Kite Runner</td>
+            <td>Khaled Hosseini</td>
+            <td>2003</td>
+        </tr>
+        <tr>
+            <td>The Monk Who Sold His Ferrari</td>
+            <td>Robin Sharma</td>
+            <td>1996</td>
+        </tr>
+        <tr>
+            <td>Romeo and Juliet</td>
+            <td>William Shakespeare</td>
+            <td>1597</td>
+        </tr>
+    </table>
+    <footer><a href="form.html">Form page</a></footer>
+</body>
+</html>
